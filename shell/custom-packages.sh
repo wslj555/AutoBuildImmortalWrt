@@ -4,12 +4,12 @@
 # istore商店
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-store"
 # 首页和网络向导
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
 # 去广告adghome
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-adguardhome"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-adguardhome"
 # 代理相关
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ssr-plus"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-passwall2"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-passwall2"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nikki-zh-cn"
 # VPN
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-tailscale"
@@ -29,5 +29,5 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-store"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netspeedtest"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-netspeedtest-zh-cn"
 # MosDNS
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-mosdns"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-mosdns-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-mosdns"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-mosdns-zh-cn"
